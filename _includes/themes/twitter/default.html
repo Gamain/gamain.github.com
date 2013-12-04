@@ -63,11 +63,10 @@
 		<script type="text/javascript" src="{{ ASSET_PATH }}/codetheme/google-code-prettify/prettify.js"></script>
 		<script type="text/javascript">
 		<!--
-			function ($) {
-				$(function(){
-					window.prettyPrint && prettyPrint();
-					});
-				}(window.jQuery);
+		$(document).ready(function(){
+			$('pre').addClass('prettyprint linenums') 
+			});
+
 		//-->
 		</script>
       </footer>
