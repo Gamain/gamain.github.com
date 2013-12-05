@@ -68,12 +68,13 @@
 
 /*以下为自定义样式*/
 .mainContiner {
-margin-top: 50px;
+
 width: 920px;
 box-shadow: 0 0 6px #555;
 padding: 10px 0 10px 0;
 margin: 0 auto;
 border-radius: 5px;
+margin-top: 50px;
 }
 
 .container-narrow {
