@@ -7,14 +7,14 @@ group: navigation
 {% include JB/setup %}
 Hello,world!
 
-{% for page in site.pages %}
+{% for post in site.posts %}
 	<ul>
 		<div style='color:red;'>
-		<h3>{{ page.title }}</h3>
+		<h3>{{ post.title }}</h3>
 		</div>
 		<hr>
 		<div style='color:green;'>
-		{{ page.content | strip_html }}
+		{{ post.content | strip_html }}
 		</div>
 	</ul>
 {% endfor %}
