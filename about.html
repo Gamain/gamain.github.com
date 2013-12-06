@@ -9,11 +9,17 @@ Hello,world!
 
 {% for page in site.pages %}
 	<ul>
+	<div style='color:red'>
 	{{ page.title }}
+	</div>
 	<hr>
+	<div style='color:green'>
 	{{ page.content }}
+	</div>
 	<hr>
+	<div style='color:yellow'>
 	{{ page.url}}
+	</div>
 	<hr>
 	<hr>
 	</ul>
