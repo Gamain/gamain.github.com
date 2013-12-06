@@ -14,7 +14,7 @@ Hello,world!
 		</div>
 		<hr>
 		<div style='color:green;'>
-		{{ page.content }}
+		{{ page.content | strip_html }}
 		</div>
 	</ul>
 {% endfor %}
