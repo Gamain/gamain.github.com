@@ -6,3 +6,13 @@ group: navigation
 ---
 {% include JB/setup %}
 Hello,world!
+
+{% for page in site.pages %}
+	<ul>
+	{{ page.title }}
+	</br>
+	{{ page.content }}
+	</br>
+	{{ page.url}}
+	</ul>
+{% endfor %}
