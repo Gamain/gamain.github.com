@@ -9,18 +9,12 @@ Hello,world!
 
 {% for page in site.pages %}
 	<ul>
-	<div style='color:red'>
-	{{ page.title }}
-	</div>
-	<hr>
-	<div style='color:green'>
-	{{ page.content }}
-	</div>
-	<hr>
-	<div style='color:yellow'>
-	{{ page.url}}
-	</div>
-	<hr>
-	<hr>
+		<div style='color:red;'>
+		<h3>{{ page.title }}</h3>
+		</div>
+		<hr>
+		<div style='color:green;'>
+		{{ page.content }}
+		</div>
 	</ul>
 {% endfor %}
