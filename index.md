@@ -18,7 +18,7 @@ tagline: Supporting tagline
 			<div class="article-body article-type-text clearfix">   
 				<div class="article-content wordwrap"> 
 				  <span class="article-text">　
-					{{ post.content | strip_html | truncatewords:200  }}
+					{{ post.content | strip_html | truncatewords:100  }}
 				  </span> 
 					<a href="{{ post.url }}" class="more-link songti">查看全文&gt;&gt;</a> 
 				 </div> 
