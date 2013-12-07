@@ -6,15 +6,30 @@ group: navigation
 ---
 {% include JB/setup %}
 
+<ul>
+	{% for post in site.posts %}
+		
+		<li>
+			<div class="article-top wordwrap"> 发表文章 </div>
 
-{% for post in site.posts %}
-	<ul>
-		<div style='color:red;'>
-		<h3>{{ post.title }}</h3>
-		</div>
-		<hr>
-		<div style='color:green;'>
-		{{ post.content | strip_html | truncatewords:200  }}
-		</div>
-	</ul>
-{% endfor %}
+			<div class="article-title">
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			</div>
+			
+			<div class="article-body article-type-text clearfix">   
+				<div class="article-content wordwrap"> 
+				  <span class="article-text">　
+					{{ post.content | strip_html | truncatewords:200  }}
+				  </span> 
+					<a href="{{ post.url }}" target="_blank" class="more-link songti">查看全文&gt;&gt;</a> 
+				 </div> 
+			</div>
+
+			<div class="article-info"> 
+				<a href="http://hi.baidu.com/rex_gamain/item/d55db5d74e49361a20e250d2#reply" target="_blank" class="repeat songti">评论</a> 
+				<span class="time">{{ post.date }}</span> 
+			</div>
+
+		</li>
+	{% endfor %}
+</ul>
