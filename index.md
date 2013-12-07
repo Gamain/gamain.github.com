@@ -29,6 +29,7 @@ tagline: Supporting tagline
 				<span class="time">{{ post.date }}</span> 
 			</div>
 
+		<hr style="border-top:1px dashed #cccccc; height:1px">
 		</li>
 	{% endfor %}
 </ul>
