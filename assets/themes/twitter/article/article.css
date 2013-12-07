@@ -59,6 +59,9 @@ font-size: large;;
 line-height: 28px;
 overflow: hidden;
 }
+.article-title {
+font-size: large;
+}
 
 .mod-space-article .article-body {
 line-height: 20px;
