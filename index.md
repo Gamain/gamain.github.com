@@ -25,7 +25,7 @@ tagline: 纸上得来终觉浅，绝知此事要躬行。
 			</div>
 
 			<div class="article-info"> 
-				<a href="#"  class="repeat songti">评论</a> 
+				<a href="{{ post.url }}#comments"  class="repeat songti">评论</a> 
 				<span class="time">{{ post.date }}</span> 
 			</div>
 
