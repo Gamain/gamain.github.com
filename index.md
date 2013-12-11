@@ -5,7 +5,7 @@ tagline: 纸上得来终觉浅，绝知此事要躬行。
 ---
 {% include JB/setup %}
 
-<ul>
+<ul class="article">
 	{% for post in site.posts %}
 		
 		<li>
