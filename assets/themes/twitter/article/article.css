@@ -1,4 +1,4 @@
-ul
+.span12 ul
 {
 	display: block;
 	list-style: none;
@@ -13,7 +13,7 @@ ul
 	font-family: arial,\5b8b\4f53,sans-serif;
 }
 
-li {
+.span12 ul li {
 display: list-item;
 text-align: -webkit-match-parent;
 }
