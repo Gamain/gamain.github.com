@@ -26,7 +26,7 @@ tagline: 纸上得来终觉浅，绝知此事要躬行。
 
 			<div class="article-info"> 
 				<a href="{{ post.url }}#comments"  class="repeat songti">评论</a> 
-				<span class="time">{{post.date | date_to_utc | date: '%Y-%m-%d' }}</span> 
+				<span class="time">{{ post.date | date_to_utc | date: '%Y-%m-%d' }}</span> 
 			</div>
 
 		<hr style="border-top:1px dashed #cccccc; height:1px">
