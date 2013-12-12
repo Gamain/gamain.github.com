@@ -18,7 +18,7 @@ display: list-item;
 text-align: -webkit-match-parent;
 }
 
-.mod-space-article .article-item {
+.article-item {
 position: relative;
 font-size: 12px;
 padding: 20px 10px;
@@ -38,10 +38,10 @@ height: 0;
 clear: both;
 }
 
-.mod-space-article .article-top {
+.article-top {
 font-size: 12px;
 line-height: 16px;
-color: #999;
+color:#BBB;
 }
 
 .wordwrap {
@@ -49,26 +49,18 @@ word-break: break-all;
 word-wrap: break-word;
 }
 
-.article-top 
-{
-	color:#BBB;
-}
-
-.mod-space-article .article-title {
+.article-title {
 font-size: large;;
 line-height: 28px;
 overflow: hidden;
 }
-.article-title {
-font-size: large;
-}
 
-.mod-space-article .article-body {
+.article-body {
 line-height: 20px;
 padding-bottom: 10px;
 }
 
-.mod-space-article .article-info {
+.article-info {
 line-height: 18px;
 color: #CCC;
 margin-top:10px;
